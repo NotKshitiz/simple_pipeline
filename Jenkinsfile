@@ -3,7 +3,7 @@ pipeline{
     stages{
         stage('Checkout') {
             steps{
-                git 'https://github'
+                git 'https://github.com/NotKshitiz/simple_pipeline.git'
             }
         }
 
